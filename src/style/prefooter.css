@@ -1,0 +1,20 @@
+.prefooter img {
+    height: 10vmin;
+}
+
+.prefooter {
+    background-color: rgb(211, 207, 207);
+    padding-top: 4vmin;
+    padding-bottom: 4vmin;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.prefooter div {
+    align-items: center;
+    gap: 3vmin;
+    cursor: pointer;
+    display: flex;
+
+}

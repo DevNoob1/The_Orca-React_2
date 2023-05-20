@@ -1,0 +1,49 @@
+.card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: turquoise;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    width: 40vmin;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgb(30, 112, 104);
+    opacity: 60;
+}
+
+.card img {
+    width: 100%;
+    height: 30vmin;
+    object-fit: cover;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 6vmin;
+}
+
+.detail>div:nth-child(2) p {
+    margin-right: 6px;
+    font-size: 3.4vmin;
+}
+
+
+.detail p {
+    font-size: 18px;
+    margin: 0;
+    color: black;
+    margin-left: 4px;
+}
+
+.detail>div:nth-child(1) p:nth-child(2) {
+    margin-left: 4px;
+    margin-top: -3px;
+    font-size: 16px;
+    color: rgb(77, 77, 77);
+}

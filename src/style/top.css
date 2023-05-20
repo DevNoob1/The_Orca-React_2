@@ -1,0 +1,29 @@
+.top-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 180%;
+}
+
+.top-container {
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: red;
+}
+
+
+.top-container::-webkit-scrollbar {
+    height: 3px;
+}
+
+
+
+
+.top-container::-webkit-scrollbar-thumb {
+    background-color: red;
+    /* border-radius: 1; */
+    border: none;
+}

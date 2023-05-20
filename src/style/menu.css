@@ -1,0 +1,47 @@
+.menu {
+    z-index: 0;
+    margin-bottom: -1.6%;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(white, rgb(211, 207, 207));
+}
+
+.menu-item {
+    width: 30vh;
+    padding: 2vmin;
+    margin: 1.4vmin;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #131313;
+}
+
+
+.menu h2 {
+    margin-left: 2vmin;
+}
+
+.menu-item h3 {
+    z-index: 0;
+    font-size: 18px;
+    margin: 0;
+}
+
+.menu-item p {
+    z-index: 0;
+    margin: 10px 0;
+    color: #888;
+}
+
+.menu-item span {
+    z-index: 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.tang {
+    opacity: 0;
+}
+
+.tang:hover {
+    opacity: 90;
+}

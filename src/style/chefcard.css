@@ -1,0 +1,53 @@
+.chef {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.cards {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin: 5vmin;
+    border-radius: 4vmin;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cards img {
+    display: flex;
+    width: 140%;
+    height: 40vmin;
+    object-fit: cover;
+}
+
+
+.cards h1 {
+    margin: 10vmin;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cards p {
+    margin-top: -5vmin;
+    margin-left: 10vmin;
+    color: rgb(149, 0, 0);
+    font-size: 16px;
+}
+
+.cards p img {
+    height: 5vmin;
+    width: 5vmin;
+}
+
+@media screen and (max-width: 768px) {
+    .cards {
+        width: 80%;
+    }
+}
