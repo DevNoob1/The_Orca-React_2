@@ -10,7 +10,6 @@ export default function navbar() {
       <div className='Details'>
         <select name="locations" id="locaitons">
           <option value="Locations">Locations</option>
-          <option value="">world</option>
           <option value="London">London</option>
           <option value="Paris">Paris</option>
           <option value="New York">New York</option>
